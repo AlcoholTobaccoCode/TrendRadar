@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-17 06:53:52</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">黄金 石油</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=RBC%E8%AD%A6%E5%91%8A%EF%BC%9A%E4%B8%AD%E4%B8%9C%E7%9F%B3%E6%B2%B9%E4%BE%9B%E5%BA%94%E9%A3%8E%E9%99%A9%E6%97%A5%E7%9B%8A%E5%8A%A0%E5%A4%A7" target="_blank" class="news-link">RBC警告：中东石油供应风险日益加大</a> [17] <font color='grey'>- 06时53分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9F%A0%E6%AA%AC%E7%96%AF%E6%B6%A8%E4%BC%BC%E9%BB%84%E9%87%91" target="_blank" class="news-link">柠檬疯涨似黄金</a> [27] <font color='grey'>- 06时53分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749151" target="_blank" class="news-link">报道称伊朗向美以释放对话信号，美股三大股指涨超1%，原油跌超4%、黄金跌超1%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时53分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2058575" target="_blank" class="news-link">一图读懂：新消费股狂欢背后 毛戈平和老铺黄金等卖空量飙升</a> [9] <font color='grey'>- 06时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_30991395" target="_blank" class="news-link">大学2025丨学者王生云：AI时代应回归以作者为中心的评价体系</a> [20] <font color='grey'>- 06时53分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BA%A2%E9%BB%91%E6%A6%9C" target="_blank" class="news-link">AI时代的专业红黑榜</a> [27] <font color='grey'>- 06时53分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B9%E6%9E%9CAI%E4%B8%BA%E4%BD%95%E9%99%B7%E5%85%A5%E5%9B%B0%E5%A2%83" target="_blank" class="news-link">苹果AI为何陷入困境</a> [30] <font color='grey'>- 06时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1917897415932994015" target="_blank" class="news-link">机构称「若严格实行 60 天账期，仅特斯拉、理想两家车企资金最安全」，众车企会按 60 天账期严格实行吗？</a> [11] <font color='grey'>- 06时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2058825" target="_blank" class="news-link">1500亿半导体龙头6月20日起正式变更证券简称|盘后公告集锦</a> [12] <font color='grey'>- 06时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1917611719422882983" target="_blank" class="news-link">山东科技大学 2025 综合评价招生面试禁用红米手机考试，工作人员回应称「属实」，原因可能是什么？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时53分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E6%9F%A0%E6%AA%AC%E7%96%AF%E6%B6%A8%E4%BC%BC%E9%BB%84%E9%87%91" target="_blank" class="news-link">柠檬疯涨似黄金</a> [27]</li></ul></div>
+        </body>
+        </html>
+        
