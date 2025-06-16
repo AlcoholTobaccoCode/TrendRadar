@@ -6,12 +6,6 @@ DeepSeek
 鸿蒙
 HarmonyOS
 
-比亚迪
-王传福
-
-宇树
-王兴兴
-
 京东
 刘强东
 
@@ -38,9 +32,6 @@ deepmind
 chatgpt
 openai
 
-claude
-Anthropic
-
 iphone
 ipad
 mac
@@ -56,3 +47,8 @@ ai
 科技
 
 核能
+
+中美
+
+黄金
+石油
